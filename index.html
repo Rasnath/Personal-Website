@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="favicon.ico">
+  <title>Fábio Silva - a web designer & developer - About </title>
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!--fontawesome-->
+
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+
+  <!--Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <a class="navbar-brand" href="#top">Fábio Silva</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutMe">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cta">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- top -->
+
+  <section class="colorSection">
+    <div class="overlay">
+      <div class="" id="top">
+        <img class="sun" src="images/sun.png" alt="sun-image">
+        <div class="title">
+          <h1>I'm Fábio.</h1>
+          <h2>a <span class="pro">pro</span>grammer.</h2>
+        </div>
+        <img class="cloud" src="images/cloud.png" alt="cloud-image">
+        <img class="island" src="images/island.png" alt="mountain-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="aboutMe">
+    <div class="container-fluid">
+      <div class="profile">
+        <img class="profile-image" src="images/fabio.jpg" alt="profile-picture">
+        <h2>Hello.</h2>
+        <p class="about-text">I've worked with technology and customers for over 10 years, part of those years as an assistant manager at Apple premium reseller store.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- projects -->
+  <section class="colorSection" id="projects">
+    <h2>Projects</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item container-fluid active">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img class="body-image" src="images/toDoList.gif" alt="toDoListImage">
+            </div>
+            <div class="col-md-6 col-sm-12 project-text">
+              <h3>toDoList</h3>
+              <div>
+                toDoList is a responsive React app, where you can create a task with date and priority,
+                filter, mark as complete and see the summary of pending tasks in a graph.
+              </div>
+              <hr>
+              <a target="_blank" href="https://github.com/Rasnath/toDoList">View Project</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img class="body-image" src="images/infomovie.gif" alt="toDoListImage">
+            </div>
+            <div class="col-md-6 col-sm-12 project-text">
+              <h3>Info Movie App</h3>
+              <div>
+                An IOS application that uses TMDB's API to sort, search and view movie information and trailers.
+              </div>
+              <hr>
+              <a target="_blank" href="https://github.com/Rasnath/TMDB-Info-Movie-App">View Project</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- skils -->
+  <section id=skills>
+    <div class="container-fluid">
+      <h2>What I can do?</h2>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <img class="body-image" src="images/programmer.png" alt="programmer-image">
+        </div>
+        <div class="col-md-8 col-sm-12 project-text">
+          <h3>Developer</h3>
+          <div>
+            <ul>
+              <li>Swift, HTML, CSS, JavaScript, React.js, jQuery and Bootstrap</li>
+              <li>Algorithms and Data Structures</li>
+              <li>Architecture (Understanding of fundamental structures of software systems)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-8 col-sm-12 project-text">
+          <h3>Personal</h3>
+          <div>
+            <ul>
+              <li>Proactivity</li>
+              <li>Self development</li>
+              <li>Great learning ability and willingness to learn more</li>
+              <li>Committed to work</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <img class="body-image" src="images/personality.png" alt="personality-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta" class="colorSection">
+    <div class="container-fluid">
+      <h2>Get In Touch</h2>
+      <p class="contact-message">I'm looking for new interesting projects with a great future perspective.</p>
+      <a class="btn" href="mailto:fcarloshsilva@gmail.com">CONTACT ME</a>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="bottom-container">
+      <a class="footer-link" href="www.linkedin.com/in/fcarloshsilva">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/Rasnath">GitHub</a>
+      <p class="copyright">© Fábio Silva.</p>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

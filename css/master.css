@@ -1,0 +1,194 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #08ACBD;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #08ACBD;
+  font-weight: normal;
+  padding-bottom: 10px;
+  padding: 2.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #08ACBD;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: #30e3cb;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 20%;
+}
+
+.colorSection {
+  background-color: #e4f9f5;
+}
+
+.body-image {
+  width: 80%;
+}
+
+/* NavBar */
+.navbar {
+  padding: 2% 5%;
+  background: #e4f9f5;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+/* top */
+#top {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 0;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  animation-name: alpha;
+  animation-duration: 4s;
+}
+
+@keyframes alpha {
+  0% {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+}
+
+.island {
+  position: relative;
+  width: 100%;
+}
+
+.sun {
+  position: absolute;
+  top: 600px;
+  right: 300px;
+}
+
+.cloud {
+  position: absolute;
+  left: 300px;
+  top: 500px;
+}
+
+/* About me */
+.profile-image {
+  width: 20%;
+  border-radius: 100%;
+}
+
+/* Projects */
+.project-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 43px;
+  color: #08ACBD;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 43px;
+  color: #08ACBD;
+}
+
+.carousel-indicators .active {
+    background-color: grey !important;
+}
+
+/* skils */
+.body-image-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* Footer */
+.bottom-container {
+  padding: 50px 0 20px;
+}
+
+.btn {
+  background: #08ACBD;
+  background-image: linear-gradient(top, #08ACBD, #11999e);
+  background-image: linear-gradient(to bottom, #08ACBD, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(top, #08ACBD, #2bc4ad);
+  background-image: linear-gradient(to bottom, #08ACBD, #2bc4ad);
+  text-decoration: none;
+}

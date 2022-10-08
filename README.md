@@ -22,6 +22,7 @@
       <li>Download and unzip the <a href="https://github.com/Rasnath/Personal-Website">Project</a></li>
       <li>Open the project folder in the preferred editor.</li>
       <li>To view click on the <a href="https://rasnath.github.io/Personal-Website/">personal website</a>.</li>
+      <li>If you want to use it, fork this project.</li>
     </ol>
     <p><a href="#top">Go to top</a></p>
   </section>

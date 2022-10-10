@@ -1,6 +1,6 @@
  <section id="top">
   <h1>Personal Website</h1>
-<p>A little about me, what I can do and some things I've done.</p>
+<p>My personal website created by me, where there's a little bit about me, some things I can do and some things I've done.</p>
   </section>
 
   <h2>Go Too..</h2>
